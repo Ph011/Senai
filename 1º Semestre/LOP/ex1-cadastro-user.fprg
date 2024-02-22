@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ph011"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-22 06:23:47 "/>
+        <attribute name="created" value="UGgwMTE7REVTS1RPUC0yN0dHMVBLOzIwMjQtMDItMjI7IjA2OjA1OjU3ICI7MjU1Ng=="/>
+        <attribute name="edited" value="UGgwMTE7REVTS1RPUC0yN0dHMVBLOzIwMjQtMDItMjI7IjA2OjIzOjQ3ICI7MTsyNjYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="number" type="String" array="False" size=""/>
+            <declare name="call" type="String" array="False" size=""/>
+            <output expression="&quot;Escreva sua idade:&quot;" newline="True"/>
+            <input variable="age"/>
+            <output expression="&quot;Qual o seu nome:&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Escreva seu n&#250;mero de telefone:&quot;" newline="True"/>
+            <input variable="number"/>
+            <output expression="&quot;Aceitas receber liga&#231;&#227;o? Responda com 'sim ou nao'&quot;" newline="True"/>
+            <input variable="call"/>
+            <if expression="call == &quot;sim&quot;">
+                <then>
+                    <output expression="&quot;&#201; uma honra&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;que pena&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;seu nome &#233;:&quot; &amp;name" newline="True"/>
+            <output expression="&quot;Sua idade &#233;:&quot; &amp;age" newline="True"/>
+            <output expression="&quot;Seu telefone &#233;:&quot; &amp;number" newline="True"/>
+            <output expression="&quot;Aceitas receber a bufa:&quot; &amp;call" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

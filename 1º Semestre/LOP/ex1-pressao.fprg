@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ph011"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-22 06:49:04 "/>
+        <attribute name="created" value="UGgwMTE7REVTS1RPUC0yN0dHMVBLOzIwMjQtMDItMjI7IjA2OjM3OjMwICI7MjU1Mg=="/>
+        <attribute name="edited" value="UGgwMTE7REVTS1RPUC0yN0dHMVBLOzIwMjQtMDItMjI7IjA2OjQ5OjA0ICI7MTsyNjY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="forca" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="pressao" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual a for&#231;a? &quot;" newline="True"/>
+            <input variable="forca"/>
+            <output expression="&quot;Qual a ar&#233;a?&quot;" newline="True"/>
+            <input variable="area"/>
+            <assign variable="pressao" expression="forca / area"/>
+            <output expression="&quot;Sente a press&#227;o de: &quot; &amp;pressao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

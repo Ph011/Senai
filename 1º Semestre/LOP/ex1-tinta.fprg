@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Ph011"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-22 06:34:18 "/>
+        <attribute name="created" value="UGgwMTE7REVTS1RPUC0yN0dHMVBLOzIwMjQtMDItMjI7IjA2OjI0OjI1ICI7MjU1Mg=="/>
+        <attribute name="edited" value="UGgwMTE7REVTS1RPUC0yN0dHMVBLOzIwMjQtMDItMjI7IjA2OjM0OjE4ICI7MTsyNjYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="largura" type="Real" array="False" size=""/>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="lata" type="Real" array="False" size=""/>
+            <assign variable="lata" expression="1.5"/>
+            <declare name="tlatas" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual a altura da parede:&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;Qual a largura da parede&quot;" newline="True"/>
+            <input variable="largura"/>
+            <assign variable="tlatas" expression="(altura * largura) / 1.5"/>
+            <output expression="&quot;Nessa parede v&#227;o ser usadas &quot; &amp;tlatas&amp; &quot; latas de tinta&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
